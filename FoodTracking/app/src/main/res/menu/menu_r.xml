@@ -1,0 +1,59 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ReportActivity">
+
+    <item
+        android:id="@+id/action_men"
+        android:orderInCategory="100"
+        android:title="Menu"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/men_profile"
+                android:icon="@drawable/profile_icon"
+                android:title="Profile"/>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_go"
+        android:orderInCategory="100"
+        android:title="Go To"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/men_food"
+                android:icon="@drawable/food"
+                android:title="Food Tracking "/>
+
+            <item
+                android:id="@+id/men_sport"
+                android:icon="@drawable/spo"
+                android:title="Sport Tracking"/>
+
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/exit_ex"
+                android:title="Logout ?"/>
+
+        </menu>
+
+    </item>
+</menu>

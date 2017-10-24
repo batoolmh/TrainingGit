@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/action_menu"
+        android:orderInCategory="100"
+        android:title="Menu"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/menu_profile"
+                android:icon="@drawable/profile_icon"
+                android:title="Edit Profile"/>
+
+            <item
+                android:id="@+id/menu_report"
+                android:icon="@drawable/report_icon"
+                android:title="Report"/>
+
+
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/exit_ex"
+                android:title="Logout ?"/>
+
+        </menu>
+
+    </item>
+</menu>
